@@ -13,3 +13,5 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
     </ChakraProvider>
   </React.StrictMode>
 );
+
+//8 Building the Color Mode Switch
