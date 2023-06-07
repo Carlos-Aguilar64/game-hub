@@ -2,9 +2,10 @@ import { useEffect, useState } from "react";
 import apiClient from "../services/api-client";
 import { CanceledError } from "axios";
 
-interface Game {
+export interface Game {
   id: number;
   name: string;
+  background_image: string;
 }
 
 interface FetchGamesResponse {
@@ -33,3 +34,5 @@ const useGames = () => {
 };
 
 export default useGames;
+
+// building game cards 1:40

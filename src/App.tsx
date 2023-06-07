@@ -24,5 +24,3 @@ function App() {
 }
 
 export default App;
-
-//Creating a Custom Hook for feching Games
