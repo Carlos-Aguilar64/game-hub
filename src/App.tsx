@@ -25,4 +25,4 @@ function App() {
 
 export default App;
 
-//12 Displaying Platform Icons
+//14 Getting Optimized Images
