@@ -4,6 +4,7 @@ import GameGrid from "./components/GameGrid";
 import GenreList from "./components/GenreList";
 import { useState } from "react";
 import { Genre } from "./hooks/useGenres";
+import PlarFormSelectro from "./components/PlarFormSelectro";
 
 function App() {
   const [selectedGenre, setSelectedGenre] = useState<Genre | null>(null);
@@ -30,6 +31,7 @@ function App() {
         </GridItem>
       </Show>
       <GridItem area="main">
+        <PlarFormSelectro />
         <GameGrid selectedGenre={selectedGenre} />
       </GridItem>
     </Grid>
@@ -37,5 +39,3 @@ function App() {
 }
 
 export default App;
-//17 fetching the genres
-//19 Displaying the Genres 4:0 minutes
