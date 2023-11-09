@@ -31,4 +31,3 @@ const useGames = (gameQuery: GameQuery) =>
 
 export default useGames;
 
-// building game cards 1:40
