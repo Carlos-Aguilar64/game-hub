@@ -26,7 +26,7 @@ function App() {
         lg: `"nav nav" "aside main"`,
       }}
       templateColumns={{
-        base: "1fr",
+        base: "1f",
         lg: "200px 1f",
       }}
     >
